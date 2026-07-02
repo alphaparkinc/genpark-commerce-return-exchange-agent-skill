@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import ReturnExchangeClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = ReturnExchangeClient()
+    print(c.evaluate_eligibility("2026-06-15", "2026-07-02", "changed my mind"))
 if __name__ == '__main__':
     main()
