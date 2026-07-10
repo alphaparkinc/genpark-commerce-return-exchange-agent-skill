@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "commerce-return-exchange-agent-skill",
+  "name": "genpark-commerce-return-exchange-agent-skill",
   "outputs": {
     "result_val": {
       "type": "string"
